@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #14414b;
+}
+
+.container-test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h3 {
+    font-size: 50px;
+    font-family: Georgia;
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #79c4df;
+}
+
+.vysledek-text {
+    color: yellow;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid goldenrod;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.app_window {
+    margin-top: 80px;
+    border: 2px solid gold;
+    padding: 100px;
+    background: #14292e;
+    max-width: 100%;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calcForm input {
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+label {
+    color: #ffff;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button[type="submit"]:hover {
+    background: #e5c82c;
+}
+
+.footer-text-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    width: 100%;
+/*    border: 1px solid gold;*/
+    margin-top: 60px;
+    background-color: #000;
+}
+
+.footer-text p {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
